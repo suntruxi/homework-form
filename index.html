@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms-Homework</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header
+      class="title"
+      style="
+        background-image: url(https://koibitoclothing.com/cdn/shop/collections/gamercomingsoon.png?v=1648680057);
+      "
+    >
+      <h1>Girl Gamers Registration Form</h1>
+    </header>
+    <form>
+      <div class="fundal">
+        <section class="sectiunea1">
+          <div class="title-section1">
+            <h2>Captain Info</h2>
+          </div>
+          <input type="text" placeholder="Enter your name" required />
+          <input type="email" placeholder="Enter your email" required />
+        </section>
+
+        <section class="sectiunea2">
+          <div class="title-section2">
+            <h2>Team Info</h2>
+          </div>
+          <input type="text" placeholder="Enter your Team Name" required />
+          <div class="members"><p>How many team members?</p></div>
+          <input type="radio" id="2" name="team_members_count" value="2" />
+          <label for="2">2</label><br />
+          <input type="radio" id="3" name="team_members_count" value="3" />
+          <label for="3">3</label><br />
+          <input type="radio" id="5" name="team_members_count" value="4" />
+          <label for="4">4</label>
+          <br />
+          <div class="choose-age">
+            <label for="age-group">Choose your age group:</label>
+          </div>
+
+          <select name="age-group" id="age-group">
+            <option value="under 18">Under 18</option>
+            <option value="18-24">18-24</option>
+            <option value="25-30">25-30</option>
+            <option value="over 30">Over 30</option>
+          </select>
+        </section>
+
+        <section class="sectiunea3">
+          <div class="title-section3">
+            <h2>Game Info</h2>
+          </div>
+
+          <div class="subtitle-games">
+            <h3>Select the games you want to play</h3>
+          </div>
+
+          <input
+            type="checkbox"
+            id="lol"
+            name="lol"
+            value="League of Legends"
+          />
+          <label for="lol">League of Legends</label><br />
+          <input type="checkbox" id="dota" name="dota" value="Dota2" />
+          <label for="dota">Dota2</label><br />
+          <input
+            type="checkbox"
+            id="cs:go"
+            name="cs:go"
+            value="Counter-Strike"
+          />
+          <label for="cs:go">Counter-Strike</label><br />
+          <input
+            type="checkbox"
+            id="valorant"
+            name="valorant"
+            value="Valorant"
+          />
+          <label for="valorant">Valorant</label><br />
+          <input type="checkbox" id="ow" name="ow" value="Overwatch" />
+          <label for="ow">Overwatch</label><br />
+        </section>
+
+        <section class="sectiunea4">
+          <div class="title-section4">
+            <h2>Other Info</h2>
+          </div>
+          <div class="requests">
+            <h3>Please write down any special requests</h3>
+          </div>
+          <!-- <label for="requests">Any special requests?</label> -->
+          <textarea
+            id="requests"
+            rows="10"
+            cols="40"
+            name="requests"
+            placeholder="Write here your requests"
+          ></textarea>
+        </section>
+
+        <section class="sectiunea5">
+          <input type="button" value="Submit" class="button" />
+        </section>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+body {
+  background-color: #ac75a4;
+  background-image: url(https://img.freepik.com/premium-photo/abstract-pond2-light-background-wallpaper-colorful-gradient-blurry-soft-smooth-motion-bright-shine_792836-62908.jpg)
+    fit;
+}
+
+.title {
+  color: rgb(8, 2, 17);
+  text-align: center;
+  font-family: "Mukta", sans-serif;
+  font-size: 1.8rem;
+}
+
+input[type="text"] {
+  border: 2px solid rgb(212, 33, 132);
+  border-radius: 4px;
+  width: 20%;
+  padding: 0.6rem;
+}
+
+input[type="email"] {
+  border: 2px solid rgb(212, 33, 132);
+  border-radius: 4px;
+  width: 20%;
+  padding: 0.6rem;
+}
+
+textarea {
+  border: 2px solid rgb(212, 33, 132);
+  border-radius: 4px;
+}
+
+.title-section1 {
+  color: rgb(8, 2, 17);
+  font-family: "Mukta", sans-serif;
+  font-size: 1.2rem;
+}
+
+.sectiunea1 {
+  padding-left: 4rem;
+  padding-bottom: 1.5rem;
+  margin-left: 10rem;
+  background-color: #ffafcc;
+  margin-right: 50rem;
+  border-radius: 25px;
+}
+
+.title-section2 {
+  color: rgb(8, 2, 17);
+  font-family: "Mukta", sans-serif;
+  font-size: 1.2rem;
+}
+
+.sectiunea2 {
+  padding-left: 4rem;
+  padding-bottom: 1.5rem;
+  margin-left: 10rem;
+  background-color: #cdb4db;
+  margin-right: 50rem;
+  border-radius: 25px;
+}
+
+.members {
+  font-family: "Mukta", sans-serif;
+  font-size: 1.2rem;
+}
+
+.choose-age {
+  font-family: "Mukta", sans-serif;
+  font-size: 1.2rem;
+}
+
+.title-section3 {
+  color: rgb(8, 2, 17);
+  font-family: "Mukta", sans-serif;
+  font-size: 1.2rem;
+}
+
+.sectiunea3 {
+  padding-left: 4rem;
+  padding-bottom: 1.5rem;
+  margin-left: 10rem;
+  background-color: #ffc8dd;
+  margin-right: 50rem;
+  border-radius: 25px;
+}
+
+.subtitle-games {
+  font-family: "Mukta", sans-serif;
+  font-size: 1rem;
+}
+
+.title-section4 {
+  color: rgb(8, 2, 17);
+  font-family: "Mukta", sans-serif;
+  font-size: 1.2rem;
+}
+
+.sectiunea4 {
+  padding-left: 4rem;
+  padding-bottom: 1.5rem;
+  margin-left: 10rem;
+  background-color: #bde0fe;
+  margin-right: 50rem;
+  border-radius: 25px;
+}
+
+.requests {
+  font-family: "Mukta", sans-serif;
+  font-size: 1rem;
+}
+
+.sectiunea5 {
+  padding-left: 4rem;
+  margin-left: 5rem;
+}
+
+input[type="button"] {
+  background-color: #600a6b;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.fundal {
+  background-image: url(https://koibitoclothing.com/cdn/shop/collections/gamercomingsoon.png?v=1648680057);
+  margin-right: 7rem;
+  margin-left: 7rem;
+}
